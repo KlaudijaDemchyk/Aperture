@@ -200,8 +200,9 @@ header  nav li:last-of-type a{
     padding-bottom: 100px;
     background-color: black;
 }
-.what_we_do .container {
+ .wraper {
     max-width: 1168px;
+     margin: auto;
 }
 .what_we_do h2{
 font-family: 'Poppins',se;
