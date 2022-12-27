@@ -55,7 +55,7 @@ header  nav li:last-of-type a{
 }
 /*main_banner*/
 .main_banner{
-    background-image: url("images/Image.jpg");
+    background-image: url("../images/Image.jpg");
     background-size: cover;
     height: 90vh;
     display: flex;
