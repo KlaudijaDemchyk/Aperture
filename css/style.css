@@ -310,3 +310,68 @@ font-family: 'Poppins',sans-serif;
     line-height: 20px;
     color: #C0C0C0;
 }
+/*monstera_leafs*/
+.monstera_leafs{
+    background-image: url("../images/Monstera.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    align-items: center;
+}
+.monstera_leafs_container{
+    padding-right: 60px;
+    max-width: 273px;
+}
+.monstera_leafs_container h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.monstera_leafs_container p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+/*star_fall*/
+.star_fall {
+    background-image: url("../images/Star.jpg");
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    align-items: center;
+}
+.star_fall_container{
+    padding-right: 60px;
+    max-width: 254px;
+}
+.star_fall_container  h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.star_fall_container  p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
