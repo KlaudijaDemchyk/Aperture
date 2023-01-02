@@ -55,7 +55,7 @@ header  nav li:last-of-type a{
 }
 /*main_banner*/
 .main_banner{
-    background-image: url('/images/Image.jpg');
+    background-image: url('../images/Image.jpg');
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -195,6 +195,7 @@ header  nav li:last-of-type a{
 {
     background-color: aquamarine;
 }
+/*what_we_do*/
 .what_we_do {
     padding-top: 113px;
     padding-bottom: 100px;
@@ -205,7 +206,7 @@ header  nav li:last-of-type a{
      margin: auto;
 }
 .what_we_do h2{
-font-family: 'Poppins',se;
+font-family: 'Poppins',sens-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
@@ -215,7 +216,7 @@ color: #FFFFFF;
 margin-bottom: 15px;
 }
 .what_we_do h3{
-font-family: 'Poppins';
+font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -240,9 +241,6 @@ font-family: 'Poppins';
     display: block;
     width: 100%;
 }
-
-
-
 .what_we_do .d_flex_container .description {
     position: absolute;
     width: 100%;
@@ -251,7 +249,7 @@ font-family: 'Poppins';
     box-sizing: border-box;
 }
 .what_we_do .description h4{
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -261,8 +259,8 @@ font-family: 'Poppins';
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.what_we_do .description   p{
-    font-family: 'Poppins';
+.what_we_do .description  p{
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -273,10 +271,42 @@ font-family: 'Poppins';
     margin-bottom: 15px;
 }
 .what_we_do .description  btn{
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.4px;
     color: #000000;
+}
+/*sunset_at_mount*/
+.sunset_at_mount{
+    background-image: url("../images/Montain.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    align-items: center;
+}
+.sunset_at_mount_container{
+    padding-right: 60px;
+    max-width: 298px;
+}
+.sunset_at_mount_container h4{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset_at_mount_container p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
