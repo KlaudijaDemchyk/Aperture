@@ -504,7 +504,6 @@ font-family: 'Poppins',sans-serif;
     display: flex;
     justify-content: space-between;
 }
-
 .social_icon img{
     width:100%;
     display: block;
@@ -590,7 +589,7 @@ font-family: 'Poppins',sans-serif;
     margin-bottom: 20px;
 }
 .we_use .banner_we_use{
-    background-image: url("../images/banner_we_use.jpg ");
+    background-image: url("../images/banner_we_use.jpg");
     background-size: cover;
     position: absolute;
     right: 0;
