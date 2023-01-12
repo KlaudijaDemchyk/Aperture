@@ -408,19 +408,19 @@ font-family: 'Poppins',sans-serif;
     justify-content: start;
     box-sizing: border-box;
 }
-.footer_menu h4{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C0C0C0;
-    margin-bottom: 10px;
-}
 .footer_menu ul{
     list-style: none;
+}
+.footer_menu li:first-child{
+     font-family: 'Poppins',sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: #C0C0C0;
+    margin-bottom: 10px;
 }
 .footer_menu li{
     margin-bottom: 10px;
@@ -463,7 +463,7 @@ font-family: 'Poppins',sans-serif;
     line-height: 20px;
     color: #C0C0C0;
 }
-.form {
+.form{
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 10px 5px 10px 10px;
@@ -486,7 +486,7 @@ font-family: 'Poppins',sans-serif;
     cursor: grab;
 }
 /*copyright social_icon*/
-.copyright {
+.copyright{
     padding-top: 56px;
     display: flex;
     justify-content: space-between;
@@ -499,7 +499,7 @@ font-family: 'Poppins',sans-serif;
     line-height: 20px;
     color: #C0C0C0;
 }
-.social_icon {
+.social_icon{
     width: 100px;
     display: flex;
     justify-content: space-between;
