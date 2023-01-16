@@ -109,6 +109,7 @@ header  nav li:last-of-type a{
 .past_clients_wrap{
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }
 .past_clients_wrap h2{
     font-family: 'Poppins', sans-serif;
@@ -136,6 +137,14 @@ header  nav li:last-of-type a{
     padding-top: 82px;
     padding-bottom: 69px;
     box-sizing: border-box;
+}
+.past_clients_banner a{
+    max-width: 128px;
+    display: inline-block;
+}
+.past_clients_banner .owl-stage{
+    display: flex;
+    align-items: center;
 }
 /*get_in_touch*/
 .get_in_touch{
@@ -475,7 +484,7 @@ font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
 
-.form_subscribe {
+.form_subscribe{
     width: 350px;
     height: 40px;
     background-color: transparent;
@@ -562,7 +571,6 @@ font-family: 'Poppins',sans-serif;
     max-width: 514px;
 }
 .we_use .information h4{
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -613,13 +621,9 @@ font-family: 'Poppins',sans-serif;
     padding-left: 20px;
 }
 .past_clients_banner{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 10px;
-    padding-left: 12px;
-    padding-right: 12px;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 20px;
 }
 .footer{
     padding-left: 12px;
@@ -713,7 +717,7 @@ font-family: 'Poppins',sans-serif;
     }
 }
 @media only screen and (max-width: 540px) {
-.copyright {
+    .copyright {
     display: block;
     text-align: center;
 }
@@ -742,12 +746,14 @@ font-family: 'Poppins',sans-serif;
     .form_subscribe{
         width: 250px;
     }
+
+}
     .past_clients p{
         font-size: 20px;
         padding-left: 12px;
         padding-right: 12px;
     }
-}
+
 @media only screen and (max-width: 426px) {
     .get_in_touch {
         padding-right: 12px;
@@ -759,4 +765,28 @@ font-family: 'Poppins',sans-serif;
     .footer_menu{
         padding-left: 12px;
     }
+}
+.past_clients_banner .owl-nav .owl-prev{
+    position: absolute;
+    left:-50px;
+    top: 58px;
+}
+.past_clients_banner  .owl-nav .owl-prev:after{
+    font-weight: 900;
+    font-family: 'Font Awesome 6 Free';
+    content: "\f053";
+    color: #FFFFFF;
+    display: inline-block;
+}
+.past_clients_banner .owl-nav .owl-next{
+    position: absolute;
+    right:-50px;
+    top: 58px;
+}
+.past_clients_banner  .owl-nav .owl-next:after{
+    font-weight: 900;
+    font-family: 'Font Awesome 6 Free';
+    content: "\f054";
+    color: #FFFFFF;
+    display: inline-block;
 }
