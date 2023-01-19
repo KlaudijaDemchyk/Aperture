@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -35,11 +38,21 @@
                 <a href ="#">Contact</a>
             </li>
             <li>
-                <a href ="#">Get template</a>
+                <button id="open">Get template</button>
             </li>
         </ul>
         </nav>
-    </div> 
+    </div>
+    <div class ="model-container">
+        <div class="model">
+            <i class="fas fa-heart"></i>
+            <h3>model popup box</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        <button>ok</button>
+        <button>cancel</button>
+        <i id="close"  class="fas fa-times"></i></div>
+    </div>
 </header>
 <main>
     <section class="main_banner">
@@ -281,6 +294,7 @@
 <script src="https://kit.fontawesome.com/a2651c069f.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous">
 </script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
 </body>

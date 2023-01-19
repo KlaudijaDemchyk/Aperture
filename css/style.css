@@ -43,7 +43,7 @@ header nav li:hover{
 header nav li:first-of-type a{
     font-size: 13px;
 }
-header  nav li:last-of-type a{
+#open{
     margin-right: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -55,6 +55,7 @@ header  nav li:last-of-type a{
     background: #FFFFFF;
     border-radius: 14px;
     padding: 11px 20px;
+    cursor: pointer;
 }
 /*main_banner*/
 .main_banner{
@@ -789,4 +790,65 @@ font-family: 'Poppins',sans-serif;
     content: "\f054";
     color: #FFFFFF;
     display: inline-block;
+}
+.model-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.3);
+    transform: scale(0);
+}
+.model-container .model{
+    height: 400px;
+    max-width: 350px;
+    margin: 0 10px;
+    padding: 20px;
+    background: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+.model-container .model .fa-heart{
+    font-size: 100px;
+    color: #f9ca24;
+    padding-bottom: 50px;
+    margin: 10px 0;
+    text-shadow: 0 3px 5px rgba(0,0,0,.3),
+                30px 30px 0 #ccc,
+                -30px 30px 0 #333;
+}
+.model-container .model h3{
+    color: #333;
+    font-size: 25px;
+}
+.model-container .model p{
+    color: #666;
+    margin: 20px 0;
+}
+.model-container .model button{
+    height: 35px;
+    width: 120px;
+    background: #333;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+.model-container .model button:hover{
+    opacity: .8;
+}
+.model-container .model .fa-times{
+    position: absolute;
+    top: 15px; right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #333;
 }
