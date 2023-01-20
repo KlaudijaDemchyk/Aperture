@@ -15,43 +15,33 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
 <header>
-    <div class="container">
-        <a href="#">
-            <img src="images/Combined-Shape.svg" alt="logo">
-        </a>
-        <a class="mobile_menu" href="mobil_menu"><img src="images/menu_icon.jpg " alt="Menu"></a>
-        <nav>
-        <ul>
-            <li>
-                <a href ="#">Business areas</a>
-            </li>
-            <li>
-                <a href ="#">Featured images</a>
-            </li>
-            <li>
-            <a href ="#">Gear cage</a>
-        </li>
-            <li>
-                <a href ="#">Contact</a>
-            </li>
-            <li>
-                <button id="open">Get template</button>
-            </li>
-        </ul>
+<div class="container">
+    <a href="#">
+        <img src="images/Combined-Shape.svg" alt="logo">
+    </a>
+    <div class="nav-but-wrap">
+        <div class="menu-icon hover-target">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+    </div>
+    <div class="nav">
+        <nav class="nav__content">
+            <ul class="nav__list">
+                <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+                <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+                <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+                <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+                <li class="nav__list-item"><a href="#" class="hover-target">Get template</a></li>
+            </ul>
         </nav>
     </div>
-    <div class ="model-container">
-        <div class="model">
-            <i class="fas fa-heart"></i>
-            <h3>model popup box</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <button>ok</button>
-        <button>cancel</button>
-        <i id="close"  class="fas fa-times"></i></div>
-    </div>
+</div>
 </header>
 <main>
     <section class="main_banner">
